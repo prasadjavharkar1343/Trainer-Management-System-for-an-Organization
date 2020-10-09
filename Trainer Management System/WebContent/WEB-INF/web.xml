@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>com.java.Search</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Skill</servlet-name>
+    <servlet-class>com.java.Skill</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewRequest</servlet-name>
+    <servlet-class>com.java.ViewRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Room_request</servlet-name>
+    <servlet-class>com.java.Room_request</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>view_room_rec_to_Exec</servlet-name>
+    <servlet-class>com.java.view_room_rec_to_Exec</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Skill</servlet-name>
+    <url-pattern>/Skill</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewRequest</servlet-name>
+    <url-pattern>/ViewRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Room_request</servlet-name>
+    <url-pattern>/Room_request</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>view_room_rec_to_Exec</servlet-name>
+    <url-pattern>/view_room_rec_to_Exec</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Training Requisition Form</title>
+<style>
+body {
+background-image: url("poly.jpg");
+	background-repeat: no-repeat;
+}
+h1   {color: black;}
+p    {color: black; font-family: courier; }
+{
+  color: powderblue;
+  box-sizing: border-box;
+}
+<!-- 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  } -->
+<!-- }
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+} -->
+</style>
+</head>
+<body>
+<h1 style="text-align:center;font-family: courier;">Room Request Form</h1>
+<div class="container">
+  <!-- <form action="action_page.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div> -->
+	<form action="Room_request" method="post">
+  <p>Location :<br></p>
+  <input  style="font-family:courier;" type="text" id="fname" name="Training_Name" placeholder="Your Choice"><br>
+   <p>Proposed No. of Participants: : <br></p>
+  <input style="font-family:courier;" type="text" id="fname" name="Proposed_No" placeholder="No. of Participants..">
+  <p>From Date : <br></p>
+  <input style="font-family:courier;" type="date" id="fname" name="Proposed_Date_from" placeholder="Date..">
+   <p>To Date  <br></p>
+  <input style="font-family:courier;" type="date" id="fname" name="Proposed_Date_to" placeholder="Date..">
+  
+
+   
+	<p><button type="submit" value="submit">Submit</button> 
+</form> 
+   
+	
+	
+	
+	
+	
+	
+</body>
+</html>
